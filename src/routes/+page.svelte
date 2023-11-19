@@ -19,8 +19,8 @@
 	};
 </script>
 
-<div class="grid h-screen place-content-center">
-	<div class="flex flex-wrap gap-4">
+<div class="mx-auto grid h-screen place-content-center">
+	<div class="mx-auto flex flex-wrap justify-center gap-4">
 		{#each $allproducts as { title, pricetag, quantity }, i}
 			<Product {title} {pricetag} {quantity} {i} />
 		{/each}
